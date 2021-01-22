@@ -2,6 +2,7 @@
 #encoding:utf8
 
 import rospy, copy
+import math
 from geometry_msgs.msg import Twist
 from std_srvs.srv import Trigger, TriggerResponse
 from pimouse_ros.msg import LightSensorValues
